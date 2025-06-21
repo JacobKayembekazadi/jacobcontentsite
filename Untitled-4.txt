@@ -1,0 +1,23 @@
+jacob-content-developer-site/
+├── index.html
+├── styles.css
+├── images/
+│   ├── logo.svg
+│   ├── hero.jpg
+│   ├── process-strategy.svg
+│   ├── process-adsystem.svg
+│   ├── process-automation.svg
+│   ├── case1.jpg
+│   ├── case2.jpg
+│   ├── case3.jpg
+│   ├── jacob-portrait.jpg
+│   ├── cert1.png
+│   ├── cert2.png
+│   ├── cert3.png
+│   ├── portfolio1.jpg
+│   ├── portfolio2.jpg
+│   ├── portfolio3.jpg
+│   ├── testimonial1.jpg
+│   ├── testimonial2.jpg
+│   └── testimonial3.jpg
+└── README.md

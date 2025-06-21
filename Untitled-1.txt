@@ -1,0 +1,42 @@
+# Jacob Kayembe | AI-Driven Brand Growth Consultant
+
+A single-page, production-ready marketing site for Jacob Kayembe (AI Growth Operator, SLOE LUX founder).
+
+## Features
+
+- Luxury-tech dark theme with gold accents
+- Responsive, accessible, and fast (WCAG-compliant)
+- Sticky nav, smooth scroll, scroll-snap carousels (no heavy JS)
+- Calendly modal (replace placeholder iframe with your link)
+- SEO: meta tags, Open Graph, JSON-LD Person schema
+- Minimal vanilla JS, no frameworks
+
+## Getting Started
+
+1. **Clone or download this repo.**
+2. Place your real images in the `images/` folder, replacing the provided placeholders.
+3. (Optional) Replace the Calendly `<iframe>` in `index.html` with your actual Calendly embed link.
+
+## Build & Deployment
+
+- No build step required—site is pure HTML/CSS/JS.
+- To deploy:
+  - **Static hosting:** Upload all files to Netlify, Vercel, GitHub Pages, or your preferred static host.
+  - **Custom domain:** Point your domain to your host’s public directory.
+- For best performance:
+  - Compress/optimize all images in `images/` (use [Squoosh](https://squoosh.app/) or similar).
+  - Use a CDN for global delivery.
+
+## Accessibility & Performance
+
+- All text meets 4.5:1 contrast ratio.
+- Headings are in order (h1→h2→h3).
+- Images have descriptive `alt` text and use `loading="lazy"`.
+- Animations are disabled for users with `prefers-reduced-motion`.
+- Largest Contentful Paint (LCP) target: ≤ 2.5s.
+
+## Customization
+
+- **Colors/Fonts:** Edit `styles.css` variables at the top.
+- **Content:** Update copy, images, and links in `index.html`.
+- **Calendly:** Replace the `iframe` in the footer with
